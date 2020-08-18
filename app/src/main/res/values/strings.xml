@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DaggerRetrofitMVVM</string>
+
+    <string name="msg_unexpected_error">Unexpected Error, Please Contact Customer Care.</string>
+    <string name="msg_internet_connection">Please check your internet connection</string>
+
 </resources>

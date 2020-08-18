@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--android:background="@color/white63"-->
+
+    <!--<com.google.android.material.card.MaterialCardView-->
+    <!--android:layout_width="@dimen/dp_130"-->
+    <!--android:layout_height="@dimen/dp_130"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_margin="@dimen/dp_20"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical"-->
+    <!--app:cardBackgroundColor="@color/white"-->
+    <!--app:cardCornerRadius="@dimen/dp_65"-->
+    <!--app:cardElevation="0dp">-->
+    <!--app:cardCornerRadius="@dimen/dp_65"-->
+    <!--app:cardElevation="@dimen/dp_10"-->
+    <!--<com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/progress_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:indicatorColor="@color/colorPrimary"
+        app:indicatorName="BallSpinFadeLoaderIndicator" />-->
+
+    <ProgressBar
+        android:id="@+id/animation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center" />
+
+    <!--
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:gravity="center"
+                android:maxEms="7"
+                android:minEms="5"
+                android:textColor="@android:color/white" />-->
+    <!--</com.google.android.material.card.MaterialCardView>-->
+</layout>

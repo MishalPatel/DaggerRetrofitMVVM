@@ -1,6 +1,8 @@
 package com.mishal.daggerretrofitmvvm.di.module
 
+import com.mishal.daggerretrofitmvvm.MyApp
 import com.mishal.daggerretrofitmvvm.rest.RepoService
+import com.mishal.daggerretrofitmvvm.utils.PreferenceHelper
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit
@@ -30,5 +32,14 @@ class AppModule {
         return retrofit.create(RepoService::class.java)
     }
 
-
+    @Singleton
+    @Provides
+    fun providePreference(): PreferenceHelper {
+        return PreferenceHelper(application().baseContext)
+    }
+    @Singleton
+    @Provides
+    fun application(): MyApp {
+        return MyApp.getInstance()!!
+    }
 }
